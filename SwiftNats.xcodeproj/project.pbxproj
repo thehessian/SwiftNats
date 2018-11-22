@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F1051111C58781D008EA2E8 /* DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10510F1C587817008EA2E8 /* DelegateTests.swift */; };
-		8F1051131C588603008EA2E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8F1051121C588603008EA2E8 /* LICENSE */; };
 		8F4EA2011C50BDFD0051E0DC /* SwiftNats.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4EA2001C50BDFD0051E0DC /* SwiftNats.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F4EA2081C50BDFD0051E0DC /* SwiftNats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4EA1FD1C50BDFD0051E0DC /* SwiftNats.framework */; };
 		8F4EA20D1C50BDFD0051E0DC /* ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EA20C1C50BDFD0051E0DC /* ConnectTests.swift */; };
@@ -16,7 +15,6 @@
 		8F4EA21A1C50BEC60051E0DC /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EA2191C50BEC60051E0DC /* Protocol.swift */; };
 		8F4EA21C1C50BED80051E0DC /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EA21B1C50BED80051E0DC /* Connection.swift */; };
 		8F4EA21E1C50BF210051E0DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EA21D1C50BF210051E0DC /* Extension.swift */; };
-		8FC9A6DF1C5A8ED600717470 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9A6DE1C5A8ED600717470 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,16 +170,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Travelish;
 				TargetAttributes = {
 					8F4EA1FC1C50BDFD0051E0DC = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					8F4EA2061C50BDFD0051E0DC = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -208,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1051131C588603008EA2E8 /* LICENSE in Resources */,
 				8F4EA2181C50BE2C0051E0DC /* SwiftNats.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +226,6 @@
 			files = (
 				8F4EA21E1C50BF210051E0DC /* Extension.swift in Sources */,
 				8F4EA21A1C50BEC60051E0DC /* Protocol.swift in Sources */,
-				8FC9A6DF1C5A8ED600717470 /* README.md in Sources */,
 				8F4EA21C1C50BED80051E0DC /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,14 +258,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -297,6 +301,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -312,14 +317,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -340,6 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -364,7 +378,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -383,7 +398,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.travelish.SwiftNats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -394,7 +410,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.travelish.SwiftNatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -405,7 +423,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.travelish.SwiftNatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
